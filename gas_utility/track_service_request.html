@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Track Service Request</h1>
+  <p>Status: {{ service_request.status }}</p>
+  <p>Date Submitted: {{ service_request.date_submitted }}</p>
+  <p>Date Resolved: {{ service_request.date_resolved }}</p>
+{% endblock %}
